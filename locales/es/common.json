@@ -1,0 +1,17 @@
+{
+    "searchForDevelopers": "Buscar desarrolladores...",
+    "results": "resultados",
+    "viewDetails": "Ver detalles",
+    "thereAreNoResults": "No hay resultados",
+    "searchByLocation": "Buscar por ubicación",
+    "all":"Todas",
+    "filters": "Filtros",
+    "type": "Tipo",
+    "followers": "Seguidores",
+    "location": "Localización",
+    "repositories": "Repositorios",
+    "company":"Empresa",
+    "publicGists": "Público gists",
+    "viewOnGitHub": "Ver en GitHub",
+    "search": "Buscar"
+}

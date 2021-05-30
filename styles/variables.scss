@@ -1,0 +1,17 @@
+:root {
+	--backgroundColor1: #fcfcfc;
+	--backgroundColor2: #ebebeb;
+	--fontColor1: #1e90ff;
+	--fontColor2: #535353;
+	--modalBackground: rgba(255, 255, 255, 0);
+	--modalBackdrop: rgba(255, 255, 255, 0.5);
+}
+
+.dark {
+	--backgroundColor1: #333333;
+	--backgroundColor2: #434343;
+	--fontColor1: #00bfff;
+	--fontColor2: #eeeeee;
+	--modalBackground: rgba(0, 0, 0, 0);
+	--modalBackdrop: rgba(0, 0, 0, 0.5);
+}

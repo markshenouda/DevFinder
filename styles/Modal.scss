@@ -1,0 +1,67 @@
+.modal {
+	.MuiSvgIcon-root {
+		fill: var(--fontColor2) !important;
+	}
+}
+
+.modal__close {
+	margin-right: -20px;
+	.MuiIconButton-root {
+		color: var(--fontColor2);
+		margin-left: auto;
+		display: block;
+
+		svg {
+			font-size: 40px;
+		}
+	}
+}
+
+.modal__label {
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.modal__location {
+	background-color: transparent;
+	padding: 10px 20px;
+	width: 250px;
+	outline: none;
+	border: 1px solid var(--fontColor2);
+	font-size: 18px;
+	border-radius: 10px;
+	color: var(--fontColor2);
+	margin-bottom: 20px;
+}
+
+.modal__button {
+	margin-top: 30px !important;
+	margin-bottom: 50px !important;
+	color: var(--fontColor2) !important;
+
+	border-color: var(--fontColor2) !important;
+}
+
+// Customizing Material UI Dialog Design
+
+.MuiDialog-root {
+	.MuiBackdrop-root {
+		background-color: var(--modalBackdrop) !important;
+		backdrop-filter: blur(5px) !important;
+		-webkit-backdrop-filter: blur(5px) !important;
+	}
+
+	.MuiPaper-rounded {
+		border-radius: 0px !important;
+	}
+
+	.MuiPaper-root {
+		background: var(--modalBackground) !important;
+		color: var(--fontColor2) !important;
+	}
+
+	.MuiPaper-elevation24 {
+		box-shadow: none !important;
+	}
+}

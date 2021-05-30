@@ -1,0 +1,22 @@
+.errorProgress {
+	margin-top: 30vh;
+	width: 70vmin;
+	margin-left: auto;
+	margin-right: auto;
+
+	h3 {
+		font-size: 1rem;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	.MuiLinearProgress-barColorPrimary {
+		background-color: var(--fontColor1) !important;
+	}
+}
+
+@media (max-width: 700px) {
+	.errorProgress {
+		margin-top: 15vh;
+	}
+}

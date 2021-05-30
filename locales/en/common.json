@@ -1,0 +1,17 @@
+{
+    "searchForDevelopers": "Search for developers...",
+    "results": "results",
+    "viewDetails": "View details",
+    "thereAreNoResults": "There are no results",
+    "searchByLocation": "Search by location",
+    "all":"All",
+    "filters": "Filters",
+    "type": "Type",
+    "followers": "Followers",
+    "location": "Location",
+    "repositories": "Repositories",
+    "company":"Company",
+    "publicGists": "Public gists",
+    "viewOnGitHub": "View on GitHub",
+    "search": "Search"
+}
