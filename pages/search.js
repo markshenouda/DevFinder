@@ -87,7 +87,7 @@ const Search = ({ result, page, totalPages, error }) => {
 				</form>
 
 				{error ? (
-					<ErrorProgress />
+					<ErrorProgress message={error} />
 				) : (
 					<>
 						<div className="search__total">
@@ -187,7 +187,7 @@ export const getServerSideProps = async ({ query }) => {
 	} catch (err) {
 		return {
 			props: {
-				error: true,
+				error: err.message,
 			},
 		};
 	}

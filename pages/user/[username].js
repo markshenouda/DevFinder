@@ -32,7 +32,7 @@ const UserProfile = ({ result, error }) => {
 				</Link>
 
 				{error ? (
-					<ErrorProgress />
+					<ErrorProgress message={error} />
 				) : (
 					<>
 						<img
@@ -108,7 +108,7 @@ export const getServerSideProps = async ({ query }) => {
 	} catch (err) {
 		return {
 			props: {
-				error: true,
+				error: err.message,
 			},
 		};
 	}
