@@ -1,6 +1,6 @@
 # DevFinder
 
-This is a GitHub users search app build with Next.js
+This is a GitHub users search app build with Next.js [Live version](https://devfinder.mark-shenouda.com/)
 
 ### Accessability
 All the colors have been adjusted with [http://colorsafe.co/](http://colorsafe.co/). Also, all buttons have an accessable name or <code>aria-label</code>.
