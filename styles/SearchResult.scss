@@ -10,7 +10,8 @@
 	transition: all 0.2s;
 
 	small {
-		color: gray;
+		color: var(--fontColor2);
+		opacity: 0.9;
 		flex: 1;
 	}
 

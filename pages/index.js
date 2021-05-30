@@ -32,7 +32,7 @@ export default function Home() {
 						value={searchWord}
 						onChange={(e) => setSearchWord(e.target.value)}
 					/>
-					<IconButton type="submit">
+					<IconButton type="submit" aria-label="search">
 						<FiSearch />
 					</IconButton>
 				</div>

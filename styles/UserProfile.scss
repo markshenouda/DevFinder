@@ -38,16 +38,12 @@
 .userProfile__username {
 	margin: 0;
 	font-weight: 400;
-	color: gray;
+	color: var(--fontColor2);
+	opacity: 0.9;
 }
 
 .userProfile__bio {
 	font-size: 18px;
-}
-
-.userProfile__followDetails {
-	font-size: 14px;
-	color: gray;
 }
 
 .userProfile__details {

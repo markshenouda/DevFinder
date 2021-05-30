@@ -15,7 +15,7 @@ const UserProfile = ({ result, error }) => {
 	const { t } = useTranslation();
 
 	const SEO = {
-		title: `${result.name || "Error"} - DevFinder`,
+		title: `${result?.name || "Error"} - DevFinder`,
 	};
 
 	return (

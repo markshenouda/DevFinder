@@ -76,7 +76,10 @@ const Search = ({ result, page, totalPages, error }) => {
 								value={searchWord}
 								onChange={(e) => setSearchWord(e.target.value)}
 							/>
-							<IconButton onClick={() => setOpenFilters(true)}>
+							<IconButton
+								onClick={() => setOpenFilters(true)}
+								aria-label="filters"
+							>
 								<GoSettings />
 							</IconButton>
 						</div>
