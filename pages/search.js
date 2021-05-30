@@ -162,13 +162,16 @@ export const getServerSideProps = async ({ query }) => {
 	}
 
 	try {
-		const response = await axios.get("/search/users", {
-			params: {
-				q: githubQuery,
-				per_page: 12,
-				page: query.page,
-			},
-		});
+		const response = await axios.get(
+			"https://api.github.com/search/users",
+			{
+				params: {
+					q: githubQuery,
+					per_page: 12,
+					page: query.page,
+				},
+			}
+		);
 
 		let currentPage;
 		if (response.data.items.length > 0) {

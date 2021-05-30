@@ -29,9 +29,6 @@ function MyApp({ Component, pageProps }) {
 		}
 	}, [isDarkMode]);
 
-	// Set the base URL for all requests
-	axios.defaults.baseURL = "https://api.github.com";
-
 	return (
 		<div className="app">
 			<Head>

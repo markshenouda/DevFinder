@@ -99,7 +99,9 @@ const UserProfile = ({ result, error }) => {
 
 export const getServerSideProps = async ({ query }) => {
 	try {
-		const response = await axios.get(`/users/${query.username}`);
+		const response = await axios.get(
+			`https://api.github.com/users/${query.username}`
+		);
 		return {
 			props: {
 				result: response.data,
