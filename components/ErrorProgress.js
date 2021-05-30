@@ -4,7 +4,7 @@ import LinearProgress from "@material-ui/core/LinearProgress";
 
 const ErrorProgress = () => {
 	const router = useRouter();
-	const [timeleft, setTimeleft] = useState(30);
+	const [timeleft, setTimeleft] = useState(60);
 
 	useEffect(() => {
 		let timer;
@@ -23,12 +23,12 @@ const ErrorProgress = () => {
 	return (
 		<div className="errorProgress">
 			<h3>
-				Oops, Too many requests! Page will refresh automatically after{" "}
-				{timeleft} seconds.
+				Oops, Too many requests per minute! Page will refresh
+				automatically after {timeleft} seconds.
 			</h3>
 			<LinearProgress
 				variant="determinate"
-				value={(30 - timeleft) * (100 / 30)}
+				value={(60 - timeleft) * (100 / 60)}
 			/>
 		</div>
 	);
